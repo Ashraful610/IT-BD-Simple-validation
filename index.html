@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Bangladesh</title>
-    <link rel="shortcut icon" href="./images/IT-Bangladesh-Logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/bg-remove-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet">
@@ -40,15 +40,21 @@
         <div class="content-container">
             <div class="content">
                 <h1>Brahmanbaria Polytechnic Institute</h1>
-                <input type="text" placeholder="enter code">
-                <button type="submit">Submit</button>
+                <div>
+                    <input type="text" id="BBPI" placeholder="enter code">
+                    <button onclick="submit(12345 , 'BBPI')" >Submit</button>
+                </div>
             </div>
             <div class="content">
                 <h1>MoulviBazar Polytechnic Institute</h1>
-                <input type="text" placeholder="enter code">
-                <button type="submit">Submit</button>
+                <div>
+                    <input type="text" id="MBPI" placeholder="enter code">
+                    <button onclick="submit(67890,'MBPI')">Submit</button>
+                </div>
             </div>
         </div>
     </section>
+    <!-- ------------- javaScript ---------------- -->
+    <script src="./app.js"></script>
 </body>
 </html>
