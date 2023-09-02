@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/it-bd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* background-color: rgba(17, 16, 16, 0.463); */
+}
+.navbar .logo-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar .logo-div > img{
+    width: 70px;
+    height: 70px;
+}
+.navbar .logo-div > h2{
+    display: inline;
+    color: white;
+}
+.navbar .contact-container {
+    display: flex;
+    height: 100%;
+}
+.navbar .contact-container .contact{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+}
+.navbar .contact-container .contact > h3{
+    display: inline;
+    padding: 0 5px;
+}
