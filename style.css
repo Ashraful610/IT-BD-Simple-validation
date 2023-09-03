@@ -59,6 +59,11 @@
     align-items: center;
     justify-content: center;
 }
+.content-container h2{
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+}
 .content{    
     width: 660px;
     display: flex;
