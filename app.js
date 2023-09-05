@@ -2,7 +2,7 @@ function submit(code , id){
     let newCode = document.getElementById(id).value
     if(newCode == code) {
         if(code == 12345){
-            window.location.href = 'bbpi.html'
+            window.location.href = './BBPI/bbpi.html'
         }
         else if ( code == 67890){
             window.location.href = 'mbpi.html'
