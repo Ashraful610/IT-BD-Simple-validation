@@ -6,7 +6,7 @@
 .banner{
     width: 100vw;
     height: min-content;
-    min-height: 580px;
+    min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/it-bd.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: rgba(31, 30, 30, 0.58);
+    background-color: rgba(46, 123, 44, 0.76);
 }
 .navbar .logo-div {
     height: 100%;
