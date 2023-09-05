@@ -23,7 +23,30 @@ function submit(code , id){
     }
     else{
         alert(`Your code was incorrect for ${id}`)
-        document.getElementById(id).value = ''
+        document.getElementById(id).value = ' '
     }
 }
 
+// getElementsByTagName
+var tagName = document.getElementsByTagName('h1')
+for(const tag of tagName){
+    // console.log(tag.innerText);
+}
+
+// getElementsByClassName
+var classTag = document.getElementsByClassName('content')
+for(const classt of classTag){
+    // console.log(classt.innerText);
+}
+
+// getElementById
+var id = document.getElementById('MBPI')
+// console.log(id);
+
+// querySelector
+var select = document.querySelector('.content');
+// console.log(select);
+
+// querySelectorAll 
+var selectAll = document.querySelectorAll('.content');
+// console.log(selectAll);
